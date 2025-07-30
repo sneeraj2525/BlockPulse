@@ -1,0 +1,58 @@
+.navbar{
+    padding: 15px ;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #12A9F6;
+}
+.nav-link {
+    margin: 0 10px;
+    color: rgb(255 255 255 / 65%);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(255 255 255 / 100%);
+}
+.btn-theme:hover {
+    background: #0d6efd57;
+    color: #ffffff;
+    border: 1px solid var(--bs-blue);
+    box-shadow: 0px 0px 5px var(--bs-blue);
+}
+.btn-theme {
+    background: #00111a99;
+    color: #ffffff;
+    border: 1px solid var(--bs-blue);
+    box-shadow: 0px 0px 5px #0d6efd54;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler {
+    color: rgb(255 255 255);
+}
+.navbar-toggler:focus {
+      box-shadow: 0px 0px 0px 1px #ffffffb8;
+}
+
+.h-container{
+    position: relative;
+}
+.bg--nav{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.sticky-scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 125px rgb(37 182 255 / 50%);
+    background-color: rgb(0 0 0 / 75%);
+    backdrop-filter: blur(15px);
+}

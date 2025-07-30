@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300..700&family=Gorditas:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #000103 !important ;
+}
+
+footer{
+  color: #fff;
+  padding: 10px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-family: "Montserrat", sans-serif !important;
+}
+.topBorder{
+  width: 100%;
+    background: linear-gradient(45deg, var(--bs-blue), var(--bs-info));
+    height: 3px;
+    position: fixed;
+   top: 0;
+    left: 0;
+    z-index: 1;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1390px;
+    }
+}
+
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background: url(../public/images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.hero-title {
+      font-size: 70px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.hero-title span{
+      font-size: 100px;
+    font-weight: 800;
+    color: #12a9f6;
+}
+.welbadge{
+      background: #0d6efd70;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid var(--bs-blue);
+}
+
+.btn-hero {
+       background: #00111a99;
+    color: #ffffff;
+    border: 1px solid var(--bs-blue);
+    box-shadow: 0px 0px 5px var(--bs-blue);
+    width: 125px;
+}
+.btn-hero:hover {
+    color: #5398ff;
+}
+
+.login-page{
+    background: linear-gradient(360deg, var(--bs-blue), transparent); 
+  /* background: url(../public/images/loginbg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+
+.loginbg {
+    background: #000102d6;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.form-control {
+    color: #ffffff;
+    background-color: #010813;
+    border: 1px solid #ffffff40;
+}
+.form-control::placeholder {
+    color: #d3d3d3c7;
+}
+label{
+  color: #fff;
+}
+
+.btn-log {
+    background: #12a9f6;
+    width: 100%;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.mb-75{
+  margin: 75px 0px;
+}
+
+.padding--tb{
+  padding: 100px 0 50px 0 ;
+}
+
+.about--title {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 0;
+}
+.about-disc {
+    color: #b1b1b1;
+}
+
+.about--img{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.vision {
+    padding: 10px 20px;
+    background:linear-gradient(143deg, var(--bs-danger), transparent);;
+    color: #fff;
+    border-radius: 10px;
+}
+.mission {
+    padding: 10px 20px;
+    background:linear-gradient(143deg, var(--bs-blue), transparent);
+    color: #fff;
+    border-radius: 10px;
+}
+.service-title{
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.service-disc{
+  color: #b1b1b1;
+  text-align: center;
+}
+.bg-service {
+    background: linear-gradient(129deg, #0d6efd6e, transparent);
+    border-radius: 15px;
+    /* border: 1px solid #fff; */
+    padding: 25px;
+    color: #fff;
+    box-shadow: 0px 3px 3px #0d6efd73;
+}
+
+.bg-service h2 {
+   font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-buttons {
+    border: 1px solid var(--bs-blue);
+    border-radius: 15px 15px 0 0;
+    padding: 25px 15px;
+    display: flex;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.tab-content{
+  padding: 25px 30px;
+    border: 1px solid var(--bs-blue);
+    border-radius: 0 0 15px 15px;
+}
+
+.tab-content h3{
+  color: #fff;
+}
+.tab-content p{
+  color: #b1b1b1;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background: #0d6efd7d;
+    color: #ffffff;
+    border: 1px solid var(--bs-blue);
+    box-shadow: 0px 0px 5px var(--bs-blue);
+}
+
+.service-background{
+  background: url(../public/images/banner-bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+        border-bottom: 1px solid #dddddd4f;
+    padding: 20px;
+    background: #0d6efd94;
+    color: #ffffff;
+    border: 1px solid var(--bs-blue);
+    box-shadow: 0px 0px 5px #0d6efd;
+    margin-bottom: 20px;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.faq-answer {
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #f7f7f7;
+    border-top: 1px solid #73caff57;
+}
+
+.faq-icon {
+  transition: transform 0.2s ease;
+}
+
+
+.steps-signup {
+    position: relative;
+}
+
+.steps-signup span {
+    position: absolute;
+    font-size: 150px;
+    font-weight: 700;
+    top: -100px;
+    left: -100px;
+    color: #6060603d;;
+}
+
+.steps-signup h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--bs-blue);
+    left: 25px;
+}
+.steps-signup h6 {
+    color: #b1b1b1;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    left: 25px;
+}
+
+.steps-signup-img img{
+    position: relative;
+    width: 750px;
+}
+
+.contact-page{
+    background: linear-gradient(132deg, #0d6efd73, transparent);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.bg-theme{
+      background: radial-gradient(#060d1e, transparent);
+}
+
+/* ========== MEDIA RESPONSIVE STYLES FOR SMALL SCREENS ========== */
+
+@media screen and (max-width:767px) {
+    
+    .hero-title {
+      font-size: 50px;
+      text-shadow: 0 0 30px black;
+    }
+
+    .about--img{
+        position:static;
+    }
+    .hero-title span{
+      font-size: 55px;
+    }
+    .bg--nav {
+      background: #020e1a;
+      }
+      .login-page{
+      background-position: center;
+    }
+
+    .steps-signup {
+      height: 160px;
+    }
+
+.steps-signup span {
+  font-size: 100px;
+        left: 0px;
+        top: -30px;
+}
+
+.steps-signup h2 {
+    font-size: 30px;
+    top: 50px;
+}
+.steps-signup h6 {
+   top: 50px;
+}
+}
